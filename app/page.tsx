@@ -45,13 +45,13 @@ export default function Home() {
 
       <div className="iframe-wrapper-11 my-32">
   <div className="iframe-wrapper-21">
-  <iframe scrolling="no" className="w-full aspect-video" src="https://docs.google.com/forms/d/e/1FAIpQLSfWzZDUvTjvVNJyBJopRyVrnFViPliWziG_zFz-YHNU-FooYw/viewform?embedded=true" width="100%" height="3500">Loading…</iframe>
+  <iframe scrolling="no" className="w-full aspect-video" src="https://docs.google.com/forms/d/e/1FAIpQLSfWzZDUvTjvVNJyBJopRyVrnFViPliWziG_zFz-YHNU-FooYw/viewform?embedded=true" width="100%" height="3100">Loading…</iframe>
   </div>
 </div>
 
 <iframe
 scrolling="no"
-className="py-20"
+className="my-28"
       title="SLIST_CDMX checkout widget"
       src="https://nas.io/checkout-widget?communityCode=SLIST_CDMX&communitySlug=%2Fslist&buttonText=Join%20for%20early%20access%20to%20lists&buttonTextColorHex=%23fff&buttonBgColorHex=%23ff0000&widgetTheme=dark&backgroundColorHex=%23000"
       width="100%"
