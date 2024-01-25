@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col justify-between py-10 lg:px-24">
+    <main className="flex min-h-screen flex-col justify-between pt-10 pb-36 lg:px-24">
 
 <nav className="flex items-center w-screen">
 
@@ -29,20 +29,19 @@ export default function Home() {
 
     
 
-      <div className="iframe-wrapper-1 pt-36">
+      <div className="iframe-wrapper-1">
   <div className="iframe-wrapper-2">
   <iframe className="w-full aspect-video" src="https://docs.google.com/forms/d/e/1FAIpQLSfWzZDUvTjvVNJyBJopRyVrnFViPliWziG_zFz-YHNU-FooYw/viewform?embedded=true" width="640" height="2100">Loading…</iframe>
   </div>
 </div>
 
-<div className="py-16">
 <iframe
+className="py-20"
       title="SLIST_CDMX checkout widget"
       src="https://nas.io/checkout-widget?communityCode=SLIST_CDMX&communitySlug=%2Fslist&buttonText=Join%20for%20early%20access%20to%20lists&buttonTextColorHex=%23fff&buttonBgColorHex=%23ff0000&widgetTheme=dark&backgroundColorHex=%23000"
       width="100%"
       height="320"
     ></iframe>
-</div>
 
     </main>
   );
