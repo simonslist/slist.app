@@ -33,7 +33,7 @@ export default function Home() {
 
       <div className="iframe-wrapper-1 pt-60">
   <div className="iframe-wrapper-2">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfWzZDUvTjvVNJyBJopRyVrnFViPliWziG_zFz-YHNU-FooYw/viewform?embedded=true" width="640" height="493" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfWzZDUvTjvVNJyBJopRyVrnFViPliWziG_zFz-YHNU-FooYw/viewform?embedded=true" width="640" height="493">Loading...</iframe>
   </div>
 </div>
 
