@@ -51,7 +51,7 @@ export default function Home() {
 
 <iframe
 scrolling="no"
-className="my-28"
+className="py-10 md:my-28"
       title="SLIST_CDMX checkout widget"
       src="https://nas.io/checkout-widget?communityCode=SLIST_CDMX&communitySlug=%2Fslist&buttonText=Join%20for%20early%20access%20to%20lists&buttonTextColorHex=%23fff&buttonBgColorHex=%23ff0000&widgetTheme=dark&backgroundColorHex=%23000"
       width="100%"
