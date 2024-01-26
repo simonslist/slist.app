@@ -32,12 +32,10 @@ body {
   }
 }
 
-.iframe-wrapper-1{
+.iframe-wrapper-1 {
   filter: invert(1);
-
 }
 
-.iframe-wrapper-2{
-  filter: hue-rotate(-180deg) saturate(100%) brightness(200%);
+.iframe-wrapper-2 {
+  filter: hue-rotate(180deg) saturate(800%) brightness(100%);
 }
-  

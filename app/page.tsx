@@ -33,8 +33,8 @@ export default function Home() {
         </div>
       </nav>
 
-      <div className="iframe-wrapper-11 my-32">
-        <div className="iframe-wrapper-21">
+      <div className="iframe-wrapper-1 my-32">
+        <div className="iframe-wrapper-2">
           <iframe
             scrolling="no"
             className="aspect-video w-full"
@@ -49,12 +49,13 @@ export default function Home() {
 
       <iframe
         scrolling="no"
-        className="py-10 md:my-28"
+        className="md:mt-44"
         title="SLIST_CDMX checkout widget"
-        src="https://nas.io/checkout-widget?communityCode=SLIST_CDMX&communitySlug=%2Fslist&buttonText=Join%20for%20early%20access%20to%20lists&buttonTextColorHex=%23fff&buttonBgColorHex=%23ff0000&widgetTheme=dark&backgroundColorHex=%23000"
+        src="https://nas.io/checkout-widget?communityCode=SLIST_CDMX&communitySlug=%2Fslist&buttonText=get%20early%20access%20to%20guest%20lists&buttonTextColorHex=%23fff&buttonBgColorHex=%23ff0000&widgetTheme=dark&backgroundColorHex=%23000"
         width="100%"
         height="320"
       ></iframe>
+      <p className="text-center text-red-600">For CDMX members only.</p>
     </main>
   );
 }
