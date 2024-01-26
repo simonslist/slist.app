@@ -40,7 +40,7 @@ export default function Home() {
             className="aspect-video w-full"
             src="https://docs.google.com/forms/d/e/1FAIpQLSfWzZDUvTjvVNJyBJopRyVrnFViPliWziG_zFz-YHNU-FooYw/viewform?embedded=true"
             width="100%"
-            height="3100"
+            height="1803"
           >
             Loading…
           </iframe>
