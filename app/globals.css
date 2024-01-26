@@ -39,3 +39,7 @@ body {
 .iframe-wrapper-2 {
   filter: hue-rotate(180deg) saturate(800%) brightness(100%);
 }
+
+#mlb2-11549348.ml-form-embedContainer .ml-form-embedWrapper.embedForm {
+  max-width: 100% !important;
+}
