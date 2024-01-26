@@ -35,8 +35,6 @@ export default function Home() {
         </div>
       </nav>
 
-      <div className="ml-embedded pb-10 md:px-72" data-form="mTPTl4"></div>
-
       <div className="iframe-wrapper-1  ">
         <div className="iframe-wrapper-2">
           <iframe
@@ -58,9 +56,11 @@ export default function Home() {
           title="SLIST_CDMX checkout widget"
           src="https://nas.io/checkout-widget?communityCode=SLIST_CDMX&communitySlug=%2Fslist&buttonText=get%20early%20access%20to%20guest%20lists&buttonTextColorHex=%23fff&buttonBgColorHex=%23ff0000&widgetTheme=dark&backgroundColorHex=%23000"
           width="100%"
-          height="320"
+          height="300"
         ></iframe>
-        <p className="text-center text-red-600">For CDMX members only.</p>
+        <p className="text-center text-red-600">
+          CDMX ravers only. <br></br>NYC chat coming very soon.
+        </p>
       </section>
     </main>
   );
