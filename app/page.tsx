@@ -49,7 +49,7 @@ export default function Home() {
 
       <iframe
         scrolling="no"
-        className="md:mt-44"
+        className="mt-5 md:mt-44"
         title="SLIST_CDMX checkout widget"
         src="https://nas.io/checkout-widget?communityCode=SLIST_CDMX&communitySlug=%2Fslist&buttonText=get%20early%20access%20to%20guest%20lists&buttonTextColorHex=%23fff&buttonBgColorHex=%23ff0000&widgetTheme=dark&backgroundColorHex=%23000"
         width="100%"
