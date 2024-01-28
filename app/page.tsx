@@ -1,21 +1,27 @@
+"use client";
 import Image from "next/image";
+// pages/contact.jsx
+import Script from "next/script";
+import { useState, useEffect } from "react";
 
 export default function Home() {
+  const [loaded, setLoaded] = useState(false);
+  useEffect(() => {
+    const scriptTag = document.createElement("script");
+    scriptTag.src = "https://tally.so/widgets/embed.js";
+    scriptTag.addEventListener("load", () => setLoaded(true));
+    document.body.appendChild(scriptTag);
+  }, []);
+
   return (
-    <main className="flex flex-col justify-between pt-10 lg:px-24">
-      <div className="iframe-wrapper-1  ">
-        <div className="iframe-wrapper-2">
-          <iframe
-            scrolling="no"
-            className="w-full"
-            src="https://docs.google.com/forms/d/e/1FAIpQLSfWzZDUvTjvVNJyBJopRyVrnFViPliWziG_zFz-YHNU-FooYw/viewform?embedded=true"
-            width="100%"
-            height="1847"
-          >
-            Loading…
-          </iframe>
-        </div>
-      </div>
+    <main className="container-fluid mb-24 mt-10 flex flex-col justify-between px-4 lg:px-80">
+      <iframe
+        data-tally-src="https://tally.so/embed/wQV9dG?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+        loading="lazy"
+        width="100%"
+        height="100"
+        title="NO-COVER LISTS"
+      ></iframe>
     </main>
   );
 }
