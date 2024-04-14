@@ -3,14 +3,13 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Image from "next/image";
-import { Metadata } from "next"; // if using TypeScript
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   openGraph: {
     title: "SLIST.APP",
-    description: "Guest lists for ravers who share flyers",
+    description: "Guest lists for ravers who share flyers.",
     url: "https://slist.app",
     siteName: "SLIST.APP",
     images: [
