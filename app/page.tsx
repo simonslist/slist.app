@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <main className="container-fluid mb-24 mt-10 flex flex-col justify-between px-4 lg:px-80">
       <iframe
-        data-tally-src="https://tally.so/embed/waBD7E?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+        data-tally-src="https://tally.so/embed/waBD7E?alignLeft=1&hideTitle=1&dynamicHeight=1"
         loading="lazy"
         width="100%"
         height="100"
