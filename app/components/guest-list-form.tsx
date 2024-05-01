@@ -12,7 +12,7 @@ export default function Form() {
 
   return (
     <iframe
-      data-tally-src="https://tally.so/embed/wQV9dG?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+      data-tally-src="https://tally.so/r/waBD7E"
       loading="lazy"
       width="100%"
       height="100"
