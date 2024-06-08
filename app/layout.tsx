@@ -8,10 +8,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   openGraph: {
-    title: "SLIST.APP",
+    title: "SLIST.NET",
     description: "Guest lists for ravers who share flyers.",
-    url: "https://slist.app",
-    siteName: "SLIST.APP",
+    url: "https://slist.net",
+    siteName: "SLIST.NET",
     images: [
       {
         url: "https://www.slist.app/logo-icon-circle.png",
