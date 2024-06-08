@@ -1,6 +1,6 @@
 // import * as React from "react"
 
-const SocialLink = ({ d, href }) => {
+const SocialLink = ({ d, href }: { d: string; href: string }) => {
   return (
     <a href={href}>
       <svg

@@ -44,15 +44,8 @@ export default function Home() {
           </div>
           <ListLink href="cdmx" label="🇲🇽 CDMX Guest Lists" />
           <ListLink href="/nyc" label="🇺🇸 NYC Guest Lists" />
-          <ListLink href="/epk" label="DJ Press Kit" />
-          <ListLink
-            href="/flyer-projects"
-            label="Rave Flyer Sharing Projects"
-          />
-          <ListLink
-            href="/flyer-projects"
-            label="Rave Flyer Sharing Projects"
-          />
+          <ListLink href="/djdirectory" label="🇺🇸 NYC DJ Directory" />
+          <ListLink href="/nycprivatechat" label="🇺🇸 NYC Private Chat" />
         </div>
       </nav>
     </main>
