@@ -31,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className="bg-black">
         <nav className="border-gray-200 bg-black dark:border-gray-700">
           <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
             <a

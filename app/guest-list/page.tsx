@@ -6,7 +6,7 @@ export default function Home() {
     <main className="flex flex-col justify-between pt-10 lg:px-24">
       <div className="iframe-wrapper-1  ">
         <div className="iframe-wrapper-2">
-          <Form />
+          <Form formlink="https://tally.so/r/waBD7E" />
         </div>
       </div>
     </main>

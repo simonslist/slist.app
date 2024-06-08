@@ -1,7 +1,8 @@
 "use client";
+import React from "react";
 import { useState, useEffect } from "react";
 
-export default function Form() {
+export default function Form({ formlink }: { formlink: string }) {
   const [loaded, setLoaded] = useState(false);
   useEffect(() => {
     const scriptTag = document.createElement("script");
@@ -12,10 +13,10 @@ export default function Form() {
 
   return (
     <iframe
-      data-tally-src="https://tally.so/r/waBD7E"
+      data-tally-src={formlink}
       loading="lazy"
       width="100%"
-      height="100"
+      height="3500"
       title="NO-COVER LISTS"
     ></iframe>
   );

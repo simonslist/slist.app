@@ -5,6 +5,7 @@ import Script from "next/script";
 import { useState, useEffect } from "react";
 import SocialLink from "../app/components/sociallink";
 import ListLink from "../app/components/listlink";
+import React from "react";
 
 export default function Home() {
   const [loaded, setLoaded] = useState(false);
