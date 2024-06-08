@@ -55,9 +55,9 @@ export default function RootLayout({
               Merch
             </a>
 
-            <a href="/newsletter" className="block  px-3 py-2 text-gray-300">
+            {/* <a href="/newsletter" className="block  px-3 py-2 text-gray-300">
               Newsletter
-            </a>
+            </a> */}
             <a href="/about" className="block  px-3 py-2 text-gray-300">
               About
             </a>
