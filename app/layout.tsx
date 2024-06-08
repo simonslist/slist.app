@@ -51,16 +51,16 @@ export default function RootLayout({
                 SLIST
               </span>
             </a>
-            {/*  <a href="/merch" className="block  px-3 py-2 text-gray-300">
+            <a href="/merch" className="block  px-3 py-2 text-gray-300">
               Merch
-            </a> */}
+            </a>
 
             <a href="/newsletter" className="block  px-3 py-2 text-gray-300">
               Newsletter
             </a>
-            {/*   <a href="/about" className="block  px-3 py-2 text-gray-300">
+            <a href="/about" className="block  px-3 py-2 text-gray-300">
               About
-            </a> */}
+            </a>
           </div>
         </nav>
         {children}
