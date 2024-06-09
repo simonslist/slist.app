@@ -8,7 +8,7 @@ export function CityNavbar() {
   const pathname = usePathname();
 
   return (
-    <nav className="border-gray-200 bg-black pb-20 dark:border-gray-700">
+    <nav className="border-gray-200 bg-black pb-10 dark:border-gray-700">
       <div className="mx-auto flex max-w-prose flex-wrap items-center justify-around pt-5 text-2xl text-white">
         <Link
           href="/cdmx"

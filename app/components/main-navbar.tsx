@@ -29,6 +29,13 @@ export function MainNavbar() {
           </span>
         </Link>
 
+        <Link
+          href="/raves"
+          className={`link  block px-3 py-2 ${pathname === "/raves" ? "active" : ""}`}
+        >
+          Raves
+        </Link>
+
         <Link href="https://shop.slist.net" className="block  px-3 py-2">
           Merch
         </Link>
