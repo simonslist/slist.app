@@ -22,6 +22,10 @@
   }
 }
 
+a.active {
+  color: red;
+}
+
 /* .iframe-wrapper-1 {
   filter: invert(1);
 }

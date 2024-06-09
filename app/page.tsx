@@ -17,7 +17,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="mx-auto px-5 py-12 sm:py-20 md:max-w-[41vw]">
+    <main className="mx-auto px-5 pb-12 sm:pb-20 md:max-w-[41vw]">
       <nav aria-label="Primary navigation">
         <div className="flex flex-col justify-center gap-10 text-white dark:text-white">
           <div className="flex flex-row justify-between border-b border-neutral-700 py-4 dark:border-neutral-100">
@@ -47,7 +47,7 @@ export default function Home() {
           <ListLink href="/nyc" label="🇺🇸 NYC Guest Lists" />
           <ListLink href="/djdirectory" label="🇺🇸 NYC DJ Directory" />
           <ListLink href="/nyc-private-chat" label="🇺🇸 NYC Private Chat" />
-          <ListLink href="/newsletter" label="Sign Up For The Newsletter" />
+          <ListLink href="/newsletter" label="📧 Sign Up For The Newsletter" />
         </div>
       </nav>
     </main>

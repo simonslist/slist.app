@@ -3,6 +3,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Image from "next/image";
+import { MainNavbar } from "./components/main-navbar";
+import { CityNavbar } from "./components/city-navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,40 +34,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-black">
-        <nav className="border-gray-200 bg-black dark:border-gray-700">
-          <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
-            <a
-              href="/"
-              className="flex items-center space-x-3 rtl:space-x-reverse"
-            >
-              <Image
-                className="h-8"
-                src="/logo-icon.svg"
-                alt="SLIST Logo"
-                width={45}
-                height={37}
-                priority
-              />
-
-              <span className="text-bold self-center whitespace-nowrap font-semibold dark:text-white">
-                SLIST
-              </span>
-            </a>
-            <a
-              href="https://shop.slist.net"
-              className="block  px-3 py-2 text-gray-300"
-            >
-              Merch
-            </a>
-
-            {/* <a href="/newsletter" className="block  px-3 py-2 text-gray-300">
-              Newsletter
-            </a> */}
-            <a href="/about" className="block  px-3 py-2 text-gray-300">
-              About
-            </a>
-          </div>
-        </nav>
+        <MainNavbar />
+        <CityNavbar />
         {children}
       </body>
 
