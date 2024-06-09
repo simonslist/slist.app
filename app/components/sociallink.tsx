@@ -8,7 +8,7 @@ const SocialLink = ({ d, href }: { d: string; href: string }) => {
         width="36"
         height="36"
         fill="currentColor"
-        className="fill-black dark:fill-white"
+        className="fill-white dark:fill-white"
         viewBox="0 0 24 24"
       >
         <path d={d} />

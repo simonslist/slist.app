@@ -51,7 +51,10 @@ export default function RootLayout({
                 SLIST
               </span>
             </a>
-            <a href="shop.slist.app" className="block  px-3 py-2 text-gray-300">
+            <a
+              href="https://shop.slist.net"
+              className="block  px-3 py-2 text-gray-300"
+            >
               Merch
             </a>
 
